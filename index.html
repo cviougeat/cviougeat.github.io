@@ -25,7 +25,7 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto my-2 my-lg-0">
                         <li class="nav-item"><a class="nav-link" href="#about">Resume</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#portfolio">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#services">Projects</a></li>
                         <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                     </ul>
                 </div>
@@ -54,7 +54,8 @@
                         <h2 class="text-white mt-0">Resume</h2>
                         <hr class="divider divider-light" />
                         <p class="text-white-75 mb-4">You can find here my resume presenting my academic background, the various experiences i have and my skills and passions.From my mathematical studies to my last year at IP Paris i have tried to envision a modern and structured way of thinking.</p>
-                        <a class="btn btn-light btn-xl" href="#services">Discover my work ! </a>
+                        <!--<iframe src="assets/CV_IPP-VOP.pdf" style="float:right"></iframe>-->
+                        <a class="btn btn-light btn-xl" href="assets/CV_IPP-VOP.pdf">Discover my resume ! </a>
                     </div>
                 </div>
             </div>
@@ -74,6 +75,9 @@
                             </div>
                             <h3 class="h4 mb-2">Matching algorithm</h3>
                             <p class="text-muted mb-0">Ordered by the Startup Trees Engineering, python algorithm matching freelancers and potential clients.</p>
+                            <a style="margin-top:20px" href="#matching">
+                                Check it out <u>here</u>
+                            </a>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 text-center">
@@ -81,6 +85,9 @@
                             <div class="mb-2"><i class="bi-laptop fs-1 text-primary"></i></div>
                             <h3 class="h4 mb-2">Mini Dall-e</h3>
                             <p class="text-muted mb-0"> AI generator creating images from a sentence in natural language.</p>
+                            <a style="margin-top:20px" href="#dalle">
+                                Check it out <u>here</u>
+                            </a>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 text-center">
@@ -88,6 +95,9 @@
                             <div class="mb-2"><i class="bi-globe fs-1 text-primary"></i></div>
                             <h3 class="h4 mb-2">Websites for clients</h3>
                             <p class="text-muted mb-0">Company websites ordered by particulars.</p>
+                            <a style="margin-top:20px" href="#website">
+                            Check it out <u>here</u>
+                            </a>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 text-center">
@@ -100,43 +110,52 @@
                             </i></div>
                             <h3 class="h4 mb-2">Computer Vision model</h3>
                             <p class="text-muted mb-0">Algorithm matching a picture of you to the celebrity that looks the most alike thanks to the openCV library.</p>
+                            <a style="margin-top:20px" href="#computer">
+                                Check it out here
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
         <!--Matching algo-->
+        <section id="matching">
         <header class="masthand">
             <div class="container px-4 px-lg-5 h-100">
                 <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
                     <div class="col-lg-8 align-self-end">
-                        <h1 class="text-black font-weight-bold">Matching Algorithm</h1>
+                        <h1 class="text-white font-weight-bold">Matching Algorithm</h1>
                         <hr class="divider" />
                     </div>
                     <div class="col-lg-8 align-self-baseline">
                         <p class="text-white-75 mb-5">Implementation of an algorithm for a Startup. This Startup has the goal to propose a plateform that will make clients and freelancers meet. With a group of developpers we created a database and analysed the different input fields that we had to consider.
                             We created a grading system for freelancers adapted to the potential clients needs. The ponderation of every characteristics was discussed and allowed us to develop a product as close as possible to the expectations of the Startup.</p>
-                        <a class="btn btn-primary btn-xl" href="assets/Bulletin_Corée_VIOUGEAT CAPUCINE VIVIANE CLAUDE.pdf">Check the code</a>
+                        <a class="btn btn-primary btn-xl" href="assets/Projet-info.py">Check the code</a>
                     </div>
                 </div>
             </div>
         </header>
+        </section>
         <!--Mini_Dall-e-->
+        <section id="dalle">
         <header class="masthoud">
             <div class="container px-4 px-lg-5 h-100">
-                <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
+                <div class="row gx-4 gx-lg-5 h-100 ">
                     <div class="col-lg-8 align-self-end">
                         <h1 class="text-black font-weight-bold">Mini Dall-e</h1>
-                        <hr class="divider" />
+                        <hr class="divider" style="margin:0"/>
                     </div>
                     <div class="col-lg-8 align-self-baseline">
-                        <p class="text-black-75 mb-5">Design of a project similar to the one made by OpenAI. The goal ? The user writes a sentence which becomes the input taped into a prompt. The elements described in the sentence will then be drawn by the neural network. My colleague and I chose to implement a GAN combined with a CLIP to simplify the model.</p>
-                        <a class="btn btn-primary btn-xl" href="#about">Check the collab</a>
+                        <p class="text-black-75 mb-5" style="margin-top:20px">Design of a project similar to the one made by OpenAI. The goal ? The user writes a sentence which becomes the input taped into a prompt. The elements described in the sentence will then be drawn by the neural network. My colleague and I chose to implement a GAN combined with a CLIP to simplify the model.</p>
+                        <a class="btn btn-primary btn-xl" href="https://colab.research.google.com/drive/1s1L8Myrl24q40SB87AP0Bp-iCDhhlzPP?usp=sharing">Check the collab</a>
                     </div>
+                    <img src="assets/img/GAN-E.png" style="float:right; width:40%;">
                 </div>
             </div>
         </header>
+        </section>
         <!--Websites for clients-->
+        <section id="website">
         <header class="masthand">
             <div class="container px-4 px-lg-5 h-100">
                 <div class="row gx-4 gx-lg-5 h-100 justify-content-center align-items-center text-center">
@@ -150,7 +169,9 @@
                 </div>
             </div>
         </header>
+    </section>
         <!--Computer Vision Model-->
+        <section id="computer">
         <header class="masthoud">
             <div class="container px-4 px-lg-5 h-100">
                 <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
@@ -160,11 +181,12 @@
                     </div>
                     <div class="col-lg-8 align-self-baseline">
                         <p class="text-black-75 mb-5">The aim of the project is to establish to which celebrity the face showed to the camera looks like the most. Everything begins with the definition of the ROI and the creation of a dataset. I used the library of OpenCV to determine the contours of the face and create a mask based on its form. It could be improved with the consideration of the carnation and hair color.</p>
-                        <a class="btn btn-primary btn-xl" href="#about">Check the notebook</a>
+                        <a class="btn btn-primary btn-xl" href="assets/Term Project.ipynb">Check the python code</a>
                     </div>
                 </div>
             </div>
         </header>
+        </section>
         <!-- Contact-->
         <section class="page-section bg-dark" id="contact">
             <div class="container px-4 px-lg-5">
